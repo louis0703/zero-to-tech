@@ -46,7 +46,7 @@ export default function HomeView() {
         <p className="featured-copy">{data.featuredWork.copy}</p>
         <Link className="featured-link" href="/text-lab">
           <span className="featured-link-label">{data.featuredWork.linkLabel}</span>
-          <span className="arrow">›</span>
+          <span className="arrow"></span>
         </Link>
       </article>
 
